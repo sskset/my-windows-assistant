@@ -27,6 +27,7 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
+    pip install pypi-simple
     pip install -r requirements.txt
   displayName: 'Install dependencies'
 
